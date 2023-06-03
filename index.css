@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 242, 242);
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    width: 90%;
+    margin: 3% 5%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 250px 2fr 1fr;
+    grid-template-rows: 72px 2fr 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.top{
+    grid-column: 1/4 ;
+    border-bottom: 1px solid gray;
+}
+.topul{
+    display: flex;
+}
+.span{
+    display: flex;
+}
+.span1{
+    height: 12px;
+    width: 12px;
+    background-color: crimson;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.span2{
+    height: 12px;
+    width: 12px;
+    background-color:rgb(216, 216, 13);
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.span3{
+    height: 12px;
+    width: 12px;
+    background-color: green;
+    margin-right: 10px;
+    border-radius: 50px;
+
+}
+.fa-laptop{
+    margin: 0 10px;
+}
+.fa-angle-left{
+    margin: 0 10px;
+
+}
+.topup{
+    display: flex;
+    justify-content: space-between;
+}
+.topuc{
+    display: flex;
+}
+.topuc1{
+    border: 1px solid black;
+    padding: 3px;
+    width: 400px;
+    text-align: center;
+}
+.fa-shield-halved{
+       margin-right: 6%;
+       margin-top: 5px;
+}
+.fa-arrow-rotate-right{
+    float: right;
+}
+.line{
+    text-decoration: line-through;
+}
+.topur i{
+    margin: 0 7px;
+}
+.topdr img{
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+} 
+.topd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.topdr input{
+    background-color:rgb(248, 242, 242) ;
+    border: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.fa-bell{
+    margin-right: 10px;
+}
+.col1{
+    border-right: 1px solid gray;
+    grid-row: 2/4;
+}
+.col2{
+    grid-row: 2/4;
+    border-right: 1px solid gray;
+}
+.col3{
+    grid-row: 2/3;
+    border-bottom: 1px solid gray;
+    padding-bottom:20px ;
+}
+.col4{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.col1c{
+    margin: 20px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 40px;
+    padding-top: 8px;
+}
+.col1c p i{
+    margin-right: 15px;
+}
+.col1f{
+    align-items: flex-end;
+    margin-top: 20rem;
+    font-size: 18px;
+    color: red;
+    background-color: rgb(249, 229, 233);
+    width: 240px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.col1f i{
+    margin-right: 10px;
+}
+.col2 h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.col2p{
+    margin-left: 10px;
+margin-top: 20px;
+}
+.col1c.dash{
+    background-color: rgb(13, 13, 218);
+    color: white;
+    border-radius: 5px;
+}
+.proj{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.project{
+    background-color: blue;
+    width: 200px;
+    height: 170px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.project p{
+    font-size: 25px;
+}
+.project h1{
+    float: right;
+    margin-top: 45%;
+    font-size: 40px;
+}
+.project.ass{
+    background-color: orange;
+}
+.project.comp{
+    background-color: greenyellow;
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    width: 45rem;
+    margin-top: 5%;
+    margin-left: 10px;
+
+}
+.view a{
+    text-decoration: none;
+}
+.cash{
+    width: 46rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cashflow{
+    width: 22rem;
+    margin-left: 10px;
+    border: 1px solid gray;
+    padding: 10px 10px 0 10px;
+    height: 180px;
+    margin-top: 20px;
+}
+.cft{
+    display: flex;
+    justify-content: space-between;
+    width: 19rem;
+}
+.cfd{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cfd img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    position: absolute;
+}
+.img3{
+    left: 60px;
+}
+.img2{
+    left: 40px;
+}
+.img1{
+    left: 20px;
+}
+.cashflow p{
+    margin-top: 14px;
+    font-size: 18px;
+    width: 18rem;
+}
+.cfd p{
+   margin-left: 7rem;
+}
+.col3{
+    width: 90%;
+    margin: 20px 0;
+}
+.col3t{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.col3d{
+    margin: 0 5%;
+    margin-top: 8%;
+
+}
+ul li{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+.fa-bars{
+    margin-right: 15px;
+    margin-top: 13px;
+} 
+li input{
+    margin-top: 0;
+    width: 17px;
+}
+li p{
+    margin-left: 15px;
+    line-height: 20px;
+}
+.col3p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.col3p i{
+    margin-right: 15px;
+}
+.col4 h2{
+    margin-left: 30px;
+}
+.col4t{
+    margin-left: 30px;
+    background-color: rgb(233, 237, 243);
+    padding: 20px 26px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.col4t::after{
+    content: " ";
+    width: 3px;
+    height: 80%;
+    background-color: blue;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+.col4t h3{
+    margin-top:13px ;
+}
+.col4t i{
+    margin-top: 35px;
+}
+.col4t.two{
+    background-color: rgb(249, 225, 237);
+}
+.col4t.two::after{
+    content: " ";
+    width: 3px;
+    height: 80%;
+    background-color:rgb(244, 141, 192) ;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
